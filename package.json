@@ -1,5 +1,5 @@
 {
-  "name": "pump",
+  "name": "@revisohq/pump",
   "version": "2.1.0",
   "repository": "git://github.com/mafintosh/pump.git",
   "license": "MIT",
@@ -10,12 +10,15 @@
     "destroy",
     "callback"
   ],
-  "author": "Mathias Buus Madsen <mathiasbuus@gmail.com>",
   "dependencies": {
     "end-of-stream": "^1.1.0",
     "once": "^1.3.1"
   },
   "scripts": {
     "test": "node test.js"
-  }
+  },
+  "author": "Reviso",
+  "publishConfig": {
+    "registry": "https://www.myget.org/F/reviso-npm/npm/"
+  }  
 }
