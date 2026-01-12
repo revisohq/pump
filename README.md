@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> Moved to https://biosphere.teamsystem.com/reviso/services/npm/pump#
+
 # pump
 
 pump is a small node module that pipes streams together and destroys all of them if one of them closes.
